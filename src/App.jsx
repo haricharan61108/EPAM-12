@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
+import TodoApp from './components/Todo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
       <div>
         hello
       <Navbar></Navbar>
+      <TodoApp></TodoApp>
       </div>
     </>
   )
